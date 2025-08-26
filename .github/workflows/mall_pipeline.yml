@@ -28,7 +28,7 @@ jobs:
 
       - name: Train model
         run: |
-          python clustering_model.py
+          python model/clustering_model.py
 
       - name: Run tests
         run: |
